@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: gray;
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -42,18 +40,88 @@ nav li{
     padding: 20px;
 }
 .web-deploment{
-    width: 70%;
-    /* height: 70vh; */
+    width: 1140px;
     margin: 20px auto;
     background-color: #fff;
     text-align: center;
-    padding: 80px 97px;
+    gap: 50px;
+    
 }
 .parent{
+     display: flex;
+     width: 70%;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 50px;
+     box-shadow: 4px 8px 6px rgb(112, 112, 226);
+     text-align: justify;
+  }
+.child-des{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.parent-box{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    box-shadow: 4px 8px 6px rgb(112, 112, 226);
+    text-align: start;
+}
+.inospire{
+    width: 1140px;
+    margin: 20px auto;
+    background-color: #fff;
+    text-align: center;
+    gap: 50px;
+}
+.inospire-des{
+    padding: 28px;
+}
+.curret{
+    width: 1140px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+.content-html{
+    /* width: 364px;
+    height: 299px; */
+    /* border: 1px solid gold; */
+}
+.target{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.child-des{
+.target-title{
+    text-align: center;
+}
+.target-des{
+    text-align: center;
+}
+.nai{
     padding: 20px;
+}
+.content-html{
+    background-color: rgb(134, 132, 131);
+}
+.html-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.html-title{
+    font-weight: bold;
+    padding: 10px;
+}
+.html-des{
+    padding: 10px;
+    letter-spacing: normal;
+   
+}
+.content-js{
+    background-color: antiquewhite;
 }
